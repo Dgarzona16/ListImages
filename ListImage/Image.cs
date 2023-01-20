@@ -10,10 +10,4 @@ namespace ListImage
     {
         public string File { get; set; }
     }
-
-    public class ImageList
-    {
-        public Image Image { get; set; }
-        public List<Image> SubLists { get; set; }
-    }
 }
